@@ -1,0 +1,90 @@
+//IMPORTS
+// @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+@font-face {
+  font-family: Futura;
+  src: url("~@/assets/fonts/FuturaPT-Book.woff");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Futura;
+  src: url("~@/assets/fonts/FuturaPT-Light.woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: Futura;
+  src: url("~@/assets/fonts/FuturaPT-Medium.woff");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Futura;
+  src: url("~@/assets/fonts/FuturaPT-Heavy.woff");
+  font-weight: 600;
+}
+
+//Scroll
+html {
+  scroll-behavior: smooth;
+}
+
+//FONT
+body {
+  // font-family: "Montserrat", sans-serif;
+  // font-family: "Roboto", sans-serif;
+  font-family: Futura, sans-serif;
+  font-size: 16px;
+}
+
+// VARIABLES
+
+///Color Scheme
+/// @type Color
+$brand-color-text: rgb(63, 65, 66) !default;
+/// PRIMARY
+// $brand-color-primary: #1974a5 !default;
+// $brand-color-primary-90: #15628bf3 !default;
+// $brand-color-primary-75: #4092bec2 !default;
+// $brand-color-primary-50: #55b1e2a1 !default;
+// $brand-color-primary-25: #76c7f385 !default;
+$brand-color-primary: #1e5979 !default;
+$brand-color-primary-90: #1c5c7ef3 !default;
+$brand-color-primary-75: #397ca0c2 !default;
+$brand-color-primary-75-f: #397ca0 !default;
+$brand-color-primary-50: #4998c2a1 !default;
+$brand-color-primary-25: #61a7cc85 !default;
+/// SECONDARY
+$brand-color-secondary: #586f7c !default;
+// $brand-color-secondary: #33658A !default;
+// $brand-color-secondary-75: #668ba7 !default;
+// $brand-color-secondary-50: #ccd9e2 !default;
+//NEUTRAL
+$brand-color-grey: #323232 !default;
+$brand-color-grey-75: #666666 !default;
+$brand-color-grey-50: #999999 !default;
+$brand-color-grey-25: #cccccc !default;
+$brand-color-grey-5: #f3f3f3 !default;
+$brand-color-white: #f1f1f1 !default;
+$brand-color-transparent: #f1f1f11f !default;
+
+// ///Color Scheme
+// /// @type Color
+// $brand-color-text: rgb(63, 65, 66) !default;
+// /// PRIMARY
+
+// $brand-color-primary: #327bbe !default;
+// $brand-color-primary-90: #287299f3 !default;
+// $brand-color-primary-75: #4790b8c2 !default;
+// $brand-color-primary-75-f: #4797c2 !default;
+// $brand-color-primary-50: #59a8d3a1 !default;
+// $brand-color-primary-25: #61a7cc85 !default;
+// /// SECONDARY
+// $brand-color-secondary: #3d7697 !default;
+// //NEUTRAL
+// $brand-color-grey: #323232 !default;
+// $brand-color-grey-75: #666666 !default;
+// $brand-color-grey-50: #999999 !default;
+// $brand-color-grey-25: #cccccc !default;
+// $brand-color-grey-5: #f3f3f3 !default;
+// $brand-color-white: #f1f1f1 !default;
+// $brand-color-transparent: #f1f1f11f !default;

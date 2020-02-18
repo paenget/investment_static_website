@@ -1,0 +1,46 @@
+{
+  "name": "strongview-website",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.7.4",
+    "@amcharts/amcharts4-geodata": "^4.1.8",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@gridsome/source-wordpress": "^0.5.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.4",
+    "canvas": "^2",
+    "canvg": "^2.0.0",
+    "chart.js": "^2.8.0",
+    "chartjs-plugin-datalabels": "^0.7.0",
+    "conversational-form": "^1.0.2",
+    "file-loader": "^4.2.0",
+    "gridsome": "^0.7.12",
+    "gridsome-plugin-gtm": "^0.1.1",
+    "jsdom": "^13",
+    "lodash": "^4.17.15",
+    "url-loader": "^2.2.0",
+    "vue": "^2.6.10",
+    "vue-chartjs": "^3.4.2",
+    "vue-google-charts": "^0.3.2",
+    "vue-lodash": "^2.0.2",
+    "vue-moment": "^4.0.0",
+    "vue-observe-visibility": "^0.4.6",
+    "vue-social-sharing": "^2.4.6",
+    "vuex": "^3.1.1",
+    "xmldom": "^0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-regular-svg-icons": "^5.11.2",
+    "@fortawesome/vue-fontawesome": "^0.1.7",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "vue-axios": "^2.1.5"
+  }
+}
