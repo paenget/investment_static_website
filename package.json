@@ -22,7 +22,7 @@
     "gridsome": "^0.7.12",
     "gridsome-plugin-gtm": "^0.1.1",
     "jsdom": "^13",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "url-loader": "^2.2.0",
     "vue": "^2.6.10",
     "vue-chartjs": "^3.4.2",
